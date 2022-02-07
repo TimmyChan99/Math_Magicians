@@ -25,7 +25,7 @@
 ### **Setup**
 To get a local copy up and running follow these simple example steps.
 
-- Run `git clone https://github.com/TimmyChan99/Leaderboard.git`
+- Run `git clone https://github.com/TimmyChan99/Math_Magicians.git`
 - Go to the folder `cd Math_Magicians`
 
 his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
