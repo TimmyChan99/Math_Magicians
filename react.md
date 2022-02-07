@@ -1,40 +1,12 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Getting Started with Create React App
 
-# Math Magicians
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-- Make simple calculations.
-- Read a random math-related quote.
-
-
-
-## Built With
-
-- HTML
-- CSS
-- JavaScript
-- React
-
-## Live Demo
-
-[Live Demo Link](https://timmychan99.github.io/Math_Magicians/)
-
-
-## Getting Started
-
-### **Setup**
-To get a local copy up and running follow these simple example steps.
-
-- Run `git clone https://github.com/TimmyChan99/Leaderboard.git`
-- Go to the folder `cd Math_Magicians`
-
-his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### **Available Scripts**
+## Available Scripts
 
 In the project directory, you can run:
 
-`npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -42,12 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-`npm test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`npm run build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -57,7 +29,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-`npm run eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -96,31 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Authors
-
-👤 **Fatima Ezzahra**
-
-- GitHub: [@TimmyChan99](https://github.com/TimmyChan99)
-- Twitter: [@elemenoun](https://twitter.com/elemenoun)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-ezzahra-elemenoun-020841225/)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
