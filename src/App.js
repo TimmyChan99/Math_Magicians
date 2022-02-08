@@ -1,5 +1,5 @@
 import './App.css';
-import { React } from 'react';
+import React from 'react';
 import Calculator from './components/Calcurator';
 
 class App extends React.Component {
@@ -9,8 +9,9 @@ class App extends React.Component {
   }
 
   render() {
-    return <Calculator />;
+    return (
+      <Calculator />
+    );
   }
 }
-
 export default App;
