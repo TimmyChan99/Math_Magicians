@@ -8,19 +8,14 @@ class Calculator extends React.Component {
     this.state = {
       output: 0,
     };
-    this.obj = {
-      total: null,
-      next: null,
-      operation: null,
-    };
+    this.obj = {};
   }
 
   clickHandler = (e) => {
     this.newOutput = e.target.textContent;
-    this.obj = calculate(this.obj, this.newOutput.toString());
-    console.log(this.obj);
+    this.obj = calculate(this.obj, this.newOutput);
     this.setState({
-      output: this.obj.total,
+      output: this.obj.next || this.obj.total || 0,
     });
   };
 
