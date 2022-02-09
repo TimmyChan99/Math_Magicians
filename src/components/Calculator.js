@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import React from 'react';
 import './Calculator.css';
 import calculate from './logic/calculate';
 
@@ -7,15 +6,13 @@ const Calculator = () => {
   let obj = {};
   const [result, setResult] = useState(obj);
   const clickHandler = (e) => {
-    const buttonName = e.target.textContent;
-    obj = calculate(result, buttonName);
-    // console.log(obj);
+    const buttonValue = e.target.textContent;
+    obj = calculate(result, buttonValue);
     setResult(obj);
-    console.log(result);
   };
   return (
     <div className="calculator">
-      <div className="output">0</div>
+      <div className="output">{ result.next || result.total || 0 }</div>
       <div className="numbers">
         <button type="button" onClick={clickHandler}>7</button>
         <button type="button" onClick={clickHandler}>8</button>
