@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Calculator from './Calculator';
+import Calculator from '../components/Calculator';
 
 it('test button 2 in calculator', () => {
   render(<Calculator />);

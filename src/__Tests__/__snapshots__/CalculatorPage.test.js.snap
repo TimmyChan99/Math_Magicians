@@ -12,6 +12,7 @@ exports[`test calculator 1`] = `
   >
     <div
       className="output"
+      data-testid="output"
     >
       0
     </div>
