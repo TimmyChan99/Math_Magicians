@@ -56,12 +56,12 @@ test('test add second number of operation ', () => {
   expect(output).toEqual({ total: '5', next: '2', operation: '-' });
 });
 
-// test('test add operation and shift "next" into "total" ', () => {
-//   const obj = {
-//     total: null,
-//     next: '4',
-//     operation: null,
-//   };
-//   const output = calculate(obj, 'x');
-//   expect(output).toEqual({ total: '4', next: null, operation: 'x' });
-// });
+test('test add operation and shift "next" into "total" ', () => {
+  const obj = {
+    total: null,
+    next: '4',
+    operation: null,
+  };
+  const output = calculate(obj, 'x');
+  expect(output).toEqual({ total: '4', next: null, operation: 'x' });
+});
