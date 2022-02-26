@@ -28,8 +28,8 @@
 
 ## Live Demo
 
-[Live Demo Link: deployed with Netlify](https://mathsmagicians.netlify.app/)
-[Live Demo Link: deployed with Heroku](https://math-magicians-timmy.herokuapp.com/)
+- [Live Demo Link: deployed with Netlify](https://mathsmagicians.netlify.app/)
+- [Live Demo Link: deployed with Heroku](https://math-magicians-timmy.herokuapp.com/)
 
 
 ## Getting Started
